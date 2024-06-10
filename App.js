@@ -9,7 +9,6 @@ import StaticServer from 'react-native-static-server';
 
 export default function App() {
 
-pythonBridge('import * from API.main') ;
 
   const [username, getUser]=useState("");
   const [lastName, getLast]=useState("");
